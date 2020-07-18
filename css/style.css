@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/*common*/
+section {
+  position: relative;
+}
+
+.container {
+  margin: 0 auto;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+/*product block*/
+.products {
+  text-align: center;
+}
+
+.products h2 {
+  margin-top: 3rem;
+  font-size: 3rem;
+}
+
+.products_block {
+  margin-top: 3rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (30rem)[3];
+      grid-template-columns: repeat(3, 30rem);
+  grid-column-gap: 4.5rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.products_block_item {
+  width: 30rem;
+  -webkit-box-shadow: 0px 0px 2px 2px rgba(48, 48, 48, 0.1);
+          box-shadow: 0px 0px 2px 2px rgba(48, 48, 48, 0.1);
+}
+
+.products_block_item img {
+  width: 300px;
+}
+
+.products_block_item:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.products_block_item_text {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  text-align: left;
+}
+
+.products_block_item_text h3 {
+  margin-top: 1.5rem;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #333333;
+}
+
+.products_block_item_text p {
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #666666;
+}
+
+.products_block_item_price {
+  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.products_block_item_price_value p {
+  font-size: 2rem;
+  color: #333333;
+}
+
+.products_block_item_price_value span {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #333333;
+}
+
+.products_block_item_price_shoppingCart {
+  margin-top: 1.65rem;
+  height: 4rem;
+  width: 5rem;
+  background-color: #4ED17B;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+.products_block_item_price_shoppingCart:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  background-color: #437fd3;
+}
+
+.fa-shopping-cart {
+  font-size: 1.5rem;
+  color: #ffffff;
+  padding-top: 1.2rem;
+}
+/*# sourceMappingURL=style.css.map */
